@@ -4,8 +4,49 @@
     font-family: 'PT Serif', serif;
 */
 
+html{
+  --title: 'Cinzel', serif;
+  --subtitle: 'PT Serif', serif;
+ 
+
+}
+
+h1{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  color: #414141;
+  font-size: 6rem;
+  font-weight: 900;
+  width: 70%;
+  line-height: 0.8;
+  margin: 70px auto;
+
+}
+
+.subtitle{
+  text-align: center;
+  color: #7D7D7D;
+  font-family: PT Serif 400;
+  font-size: 36px;
+  width: 45%;
+  margin: 70px auto;
+  line-height: 1.25;
+}
+
+
+
 .container {
   width: 90%;
   max-width: 39rem;
   margin: 0 auto;
+  font-size: 21px;
+  line-height: 1.6;
+}
+
+body{
+  font-size: 18px;
+}
+
+a{
+  color: #CA5E10;
 }
